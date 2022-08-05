@@ -1,0 +1,20 @@
+.compartir-post{width:97%;margin:15px}
+.compartir-post ul{padding:0;margin:10px auto;display:flex;max-width:100%;align-items:center;justify-content:center}
+.compartir-post li{display:flex;width:100%;opacity:.8;transition:all .2s ease-out}
+.compartir-post li:hover{opacity:1}
+.compartir-post li a{padding:15px 5px;margin-right:4px;border-radius:5px;text-align:center;box-shadow:0 3px 4px 0 rgba(0,0,0,.08),0 2px 7px 0 rgba(0,0,0,.08),0 3px 2px -3px rgba(0,0,0,.09);color:#fff;display:flex;font-size:15px;transition:all .6s ease-out;align-items:center;flex-basis:100%;justify-content:center;text-decoration:none!important;cursor:pointer}
+.compartir-post li a:hover{box-shadow:0 2px 5px 0 rgba(0,0,0,.16),0 2px 10px 0 rgba(0,0,0,.12)}
+.compartir-post b{font-weight:500;margin:0 15px;font-size:16px;font-family:system-ui}
+.compartir-post i{display:flex;font-size:18px;margin-top:-2px}
+.compartir-post li:hover{margin-top:-7px;transition:all .1s ease-out}
+.compartir-post li .twitter{background-color:#1da1f2}
+.compartir-post li .facebook{background-color:#4867aa}
+.compartir-post li .xmail{background-color:#08c}
+.compartir-post li .pinterest{background-color:#c82828}
+.compartir-post li .wa{background:#0dc143}
+.compartir-post li .tumblr{background-color:rgba(48,78,108,.98)}
+.compartir-post li .facebook:hover,.compartir-post li .gplus:hover,.compartir-post li .pinterest:hover,.compartir-post li .tumblr:hover,.compartir-post li .twitter:hover{color:#fff}
+.compartir-post li:last-child{margin-right:0}
+.compartir-post li .fa:before{top:0;left:0;display:inline-block;padding:5.5px 12px;font-family:fontawesome;text-align:center;color:#fff;line-height:20px;font-size:17px;transition:all .6s ease-out}
+@media (max-width:991px){.compartir-post{width:100%;margin:auto}
+.compartir-post b,.compartir-post-span{display:none}}

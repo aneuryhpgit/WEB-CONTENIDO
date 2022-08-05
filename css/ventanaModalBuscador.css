@@ -1,0 +1,292 @@
+
+.contenedor__modal{
+    display: none;
+    opacity: 0;
+}
+
+.contenedor__modal.mostrar{
+    z-index: 100;
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(to bottom, #d409fd, #9733ee);
+    display: flex;
+    z-index: 100;
+    position: fixed;
+    opacity: 2;
+    top: 0;
+    margin-left: -85px;
+}
+
+.contenedor__modal .modal{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    
+}
+
+.contenedor__modal .modal .form__buscador{
+    width: 100%;
+    justify-content: center;
+}
+
+
+.form__buscador .buscador{
+    width: 85%;
+    margin-left: 1%;
+    background-color: aliceblue;
+    border-radius: 30px;
+    padding: 2px;
+
+}
+
+.buscador .buscadorInput{
+    width: 80%;
+    margin-left: 0.3rem;
+    border: none;
+    outline: none;
+    background-color: azure;
+}
+
+.buscador .buscar{
+
+    border: none;
+    background-color: transparent;
+}
+
+
+.shear__cerrar{
+    height: 1.9rem;
+    padding-right: auto;
+    border-radius: 50px;
+    margin-top: 0.7rem;
+    border: solid 1px rgb(128, 0, 0);
+    background-color: rgb(166, 0, 255);
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    padding-top: 5px;
+    margin-left: -10px;
+}
+
+@media (min-width: 320px) {
+    .contenedor__modal.mostrar{
+        margin-left: -100px;
+    }
+}
+
+@media (min-width: 360px) {
+    .contenedor__modal.mostrar{
+        
+       margin-left: -120px;
+    }
+
+    .buscar a > i{
+        margin-right: -50px;
+    }
+
+}
+
+@media (min-width: 375px) {
+    .contenedor__modal.mostrar{
+        margin-left: -130px;
+    }
+}
+
+@media (min-width: 390px) {
+    .contenedor__modal.mostrar{
+        margin-left: -135px;
+    }
+
+    .buscar a > i{
+        margin-right: -60px;
+    }
+
+}
+
+@media (min-width: 414px) {
+    .contenedor__modal.mostrar{
+        margin-left: -145px;
+    }
+}
+
+@media (min-width: 425px) {
+    .contenedor__modal.mostrar{
+        margin-left: -150px;
+    }
+}
+
+@media (min-width: 540px) {
+    .contenedor__modal.mostrar{
+        margin-left: -212px;
+    }
+
+    .buscar a > i{
+        margin-right: -100px;
+    }
+
+}
+
+@media (min-width: 600px) {
+
+    .contenedor__modal{
+        display: flex;
+    }
+
+    .contenedor__modal{
+        z-index: 1;
+        width: 45%;
+        height: 50px;
+        background: transparent;
+        display: flex;
+        z-index: 100;
+        position: fixed;
+        opacity: 2;
+        top: 0;
+        margin-left: -350px;
+    }
+
+    .shear__cerrar{
+        display: none;
+    }
+
+    .form__buscador .buscador{
+        width: 20rem;
+    }
+
+    .buscadoInput{
+        width: 12rem;
+    }
+    
+    .buscar{
+        margin-left: -0.5rem;
+        font-size: 1rem;
+    }
+
+    .buscar a > i{
+        margin-right: -70px;
+    }
+
+}
+
+@media (min-width: 740px) {
+    .contenedor__modal.mostrar{
+        margin-left: -220px;
+    }
+
+    .buscar a > i{
+        margin-right: -140px;
+    }
+
+}
+
+@media (min-width: 768px) {
+    .contenedor__modal.mostrar{
+        margin-left: -230px;
+    }
+
+    .buscador .buscar{
+        margin-left: -2.2rem;
+        font-size: 1rem;
+        border: none;
+        background-color: transparent;
+    }
+}
+
+@media (min-width: 769px) {
+    .contenedor__modal.mostrar{
+        margin-left: -300px;
+    }
+
+    .buscar a > i{
+        margin-right: -140px;
+    }
+
+}
+
+@media (min-width: 819px) {
+    .contenedor__modal.mostrar{
+        margin-left: -350px;
+
+    }
+
+    #contenedor__modal{
+        width: 300px;
+        margin-left: -350px;
+
+    }
+
+
+    .form__buscador .buscador{
+        width: 20rem;
+        margin-left: -30px;
+    }
+
+
+    .buscar a > i{
+        margin-right: -140px;
+    }
+
+}
+
+
+@media (min-width: 1300px) {
+    .contenedor__modal.mostrar{
+        margin-left: -400px;
+
+    }
+
+    #contenedor__modal{
+        width: 300px;
+        margin-left: -400px;
+
+    }
+
+
+    .form__buscador .buscador{
+        width: 20rem;
+        margin-left: -30px;
+    }
+
+
+    .buscar a > i{
+        margin-right: -140px;
+    }
+
+}
+
+@media (min-width: 1300px) {
+    .contenedor__modal.mostrar{
+        margin-left: -400px;
+
+    }
+
+    #contenedor__modal{
+        width: 30rem;
+        margin-left: -500px;
+
+    }
+
+    .form__buscador{
+        width: 35rem;
+    }
+
+
+    .form__buscador .buscador{
+        width: 30rem;
+        margin-left: -5rem;
+    }
+
+    .buscadoInput{
+        width: 30rem;
+    }
+
+
+    .buscar a > i{
+        margin-right: -170px;
+    }
+
+}
+
+
+

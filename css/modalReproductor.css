@@ -1,0 +1,14 @@
+.contenedor-de-reproduccion{
+    /*position: fixed;*/
+    background: rgba(0, 0, 0, 0.215);
+    width: 100%;
+    height: 100%;
+    margin-top: -295px;
+    overflow: auto;
+    /*z-index: 2;*/
+    display: none;
+
+}
+
+
+
