@@ -113,12 +113,12 @@ include('./confi/time.php');
             <?php while ($data = mysqli_fetch_array($resul)) { ?>
             <div class="caja"></div>
             <div class="caja_reproductor">
-                <video src="<?php echo $data['ruta'] ?>" autobuffer="true" autoplay controls  controlslist="nodownload" class="reproductor"></video>
+                <video src="<?php echo $data['ruta'] ?>" poster="<?php echo $data['miniatura'] ?>" autobuffer="true" autoplay controls  controlslist="nodownload" class="reproductor"></video>
             </div>
             <div class="caja"></div>
             <h3 class="main-vid-title"><?php echo $data['titulo']?></h3>
 
-            <h4 class="edad-video"><?php echo get_time_ago( strtotime($data['fecha-hora'] )); ?></h4>
+            <h4 class="edad-video"><?php echo get_time_ago(strtotime($data["fecha-hora"])); ?></h4>
 
             <div class="btn_base_reproductor">
                 <div class="botones">
@@ -170,15 +170,14 @@ include('./confi/time.php');
                 <?php while ($data = mysqli_fetch_array($resulta)) { ?>
                 <a href="watch.php?watch?v=<?php echo $data['id_video'] ?>">
                     <div class="listR lanzar-reproductor" id="lanzar-reproductor">
-                        <video src="<?php echo $data['ruta'] ?>"  class="list-videoR" ></video>
+                        <video src="<?php echo $data['ruta'] ?>"  poster="<?php echo $data['miniatura'] ?>" class="list-videoR" ></video>
                         <div class="tiempo-videoR tiempoR">
                             <h4><?php echo $data['tiempo'] ?></h4>
                         </div>
-                        
-                                    
+                            
                         <h3 class="list-titleR"><?php echo $data['titulo'] ?></h3>
 
-                        <h4 class="edad-videoRecomendado"><?php echo get_time_ago( strtotime($data['fecha-hora'] )); ?></h4>
+                        <h4 class="edad-videoRecomendado"><?php echo get_time_ago(strtotime($data["fecha-hora"])); ?></h4>
                                                       
                         <h4 class="idioma-videoR"><?php echo $data['idioma'] ?></h4>
 

@@ -290,7 +290,6 @@ body{
 .contenedor__segundo .video__list-section .sud__listSection{
     width: 100%;
     height: auto;
-
     display: flex;
     flex-wrap: wrap;
 
@@ -299,6 +298,7 @@ body{
 
 .listSection__interior{
     width: 100%;
+    
 }
 
 .contenedor__segundo .video__list-section .sud__listSection .list{
@@ -358,7 +358,7 @@ body{
 
 .list .idioma-video{
     display: block;
-    font-size: 10px;
+    font-size: 0.8rem;
     width: auto;
     margin-top: -15px;
     margin-left: 20px;
@@ -368,18 +368,20 @@ body{
 
 .list .edad-video{
     margin-left: 1rem;
+    margin-top: -1rem;
     font-size: 0.8rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     font-weight: 400;
     color: rgb(41, 40, 40);
 }
 
-.idioma-videoR{
+.idioma-video{
     margin-left: 1rem;
     font-size: 0.8rem;
     margin-bottom: 1rem;
     font-weight: 400;
     color: rgb(41, 40, 40);
+
 
 }
 
@@ -478,7 +480,6 @@ body{
 
     .list .idioma-video{
         display: block;
-        font-size: 12px;
         width: auto;
         margin-left: 1.7rem;
         color: rgb(45, 44, 44);
@@ -524,7 +525,6 @@ body{
 
     .list .idioma-video{
         display: block;
-        font-size: 12px;
         width: auto;
         margin-left: 1rem;
         color: rgb(45, 44, 44);
@@ -537,7 +537,7 @@ body{
 
     .contenedor__segundo .video__list-section .sud__listSection .list{
         width: 100%;
-        height: 18rem;
+        height: 20rem;
     }
 
     .list .tiempo-video{
@@ -576,7 +576,7 @@ body{
 @media (min-width: 820px){
 
     .contenedor__segundo .video__list-section .sud__listSection .list{
-        height: 19rem;
+        height: 22rem;
     }
 
     .list .tiempo-video{
@@ -682,11 +682,15 @@ body{
 
 
     .contenedor__segundo{
-        width: 98%;
+        width: 96%;
         margin-left: auto;
         margin-right: auto;
     }
 
+    .contenedor__segundo .video__list-section{
+        margin-left: auto;
+        margin-right: auto;
+    }
     .contenedor__segundo .video__list-section .sud__listSection{
         justify-content: space-between;
         
@@ -698,7 +702,7 @@ body{
 
     .contenedor__segundo .video__list-section .sud__listSection .list{
         width: 100%;
-        height: 16rem;
+        height: 17rem;
     }
 
     .list .tiempo-video{
@@ -719,7 +723,8 @@ body{
 
     .contenedor__segundo .video__list-section .sud__listSection .list{
         width: 100%;
-        height: 17rem;
+        height: 19rem;
+    
     }
     .list .tiempo-video{
         margin-top: 170px;
@@ -727,7 +732,7 @@ body{
     }
 
     .list .idioma-video{
-        font-size: 1.2rem;
+        font-size: 0.8rem;
         margin-left: 1.7rem;
 
 

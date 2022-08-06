@@ -1,0 +1,57 @@
+
+
+/*BUSCADOR*/
+
+.contenedor_crud{
+    margin-top: 2rem;
+    width: 98%;
+    background: rgb(212, 212, 213);
+    padding: 2rem;
+}
+
+.contenedor_crud .form_busqueda{
+    width: 50%;
+    margin-left: 100px;
+
+}
+
+.form_busqueda .form_search{
+    width: 350px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.btnbusca{
+    width: 70px;
+    font-size: 18px;
+    border-radius: 5px;
+    background: rgb(62, 129, 238);
+    color: aliceblue;
+    border: solid 0.5px;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    padding: 8px 3px;
+}
+
+/*LISTA OFERTAS*/
+.crud{
+    width: 98%;
+    height: 500px;
+    overflow: auto;
+}
+
+table{
+    width: 98%;
+}
+
+tr th{
+    border: solid 0.5px;
+    padding: 0 5px;
+
+}
+
+tr td{
+    border: solid 0.5px;
+    text-align: center;
+    padding: 5px;
+}

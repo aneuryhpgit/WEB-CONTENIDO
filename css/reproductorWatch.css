@@ -68,7 +68,8 @@
 .edad-video{
     margin-left: 1rem;
     font-size: 0.8rem;
-    margin-bottom: 1.5rem;
+    margin-top: -1rem;
+    margin-bottom: 1rem;
     font-weight: 400;
     color: rgb(41, 40, 40);
 }
@@ -521,8 +522,8 @@
     }
 
     .edad-video{
-        margin-left: 3rem;
-        font-size: 0.9rem;
+        margin-left: 4rem;
+        font-size: 1rem;
         
     }
 
@@ -625,7 +626,7 @@
     width: 96%;
     font-size: 1.2rem;
     font-weight: 400;
-    margin-top: 0rem;
+    margin-top: -1.5rem;
     cursor: pointer;
     display: -webkit-box;
     -webkit-box-orient: vertical;
@@ -646,6 +647,7 @@
 .edad-videoRecomendado{
     margin-left: 0.3rem;
     font-size: 0.8rem;
+    margin-top: -1rem;
     margin-bottom: 1rem;
     font-weight: 400;
     color: rgb(41, 40, 40);
@@ -654,7 +656,10 @@
 
 .video__list-sectionR .sud__listSectionR .listR .idioma-videoR{
     margin-left: 10px;
+    margin-top: -0.8rem;
     color: rgb(49, 49, 49);
+    font-size: 0.8rem;
+    font-weight: 400;
 }
 
 

@@ -103,7 +103,7 @@ include('./confi/time.php');
                     <a href="index.php" id="btn_ref">Inicio</a>
                     <!--<a href="#" class="btn_ref">Video</a>
                     <a href="#" class="btn_ref">Shorts</a>-->
-                    <a href="#" class="btn_ref">Nosotros</a>
+                    <a href="nosotros.php" class="btn_ref">Nosotros</a>
                     <a href="#" class="btn_ref">Politica de privacidad</a>
                     <a href="#" class="btn_ref">Contacto</a>
                 </div>
@@ -143,11 +143,14 @@ include('./confi/time.php');
                         
                         <h4 class="tiempo-video"><?php echo $data['tiempo'] ?></h4>
                             
-                        <video src="<?php echo $data['ruta'] ?>" class="list-video" id="list-video" ></video>
+                        <video src="<?php echo $data['ruta'] ?>" poster="<?php echo $data['miniatura'] ?>"  class="list-video" id="list-video" ></video>
                         
                         <h3 class="list-title"><?php echo $data['titulo'] ?></h3>
+                        <?php
 
-                        <h4 class="edad-video"><?php echo get_time_ago( strtotime($data['fecha-hora'] )); ?></h4>
+                        
+                        ?>
+                        <h4 class="edad-video"><?php echo get_time_ago(strtotime($data["fecha-hora"])); ?></h4>
                                           
                         <h4 class="idioma-video"><?php echo $data['idioma'] ?></h4>
 
@@ -179,6 +182,8 @@ include('./confi/time.php');
 
 
     ?>
+
+    
 
 
    <!--
